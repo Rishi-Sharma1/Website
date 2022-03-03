@@ -38,16 +38,21 @@ p{
 	font-weight: 700;
 	font-size: 20px;
 }
+.img{
+	align-content: center;
+	padding-left: 50px;
+
+}
 /*----Left Column-----*/
 
 
 
 .left-column{
-	padding-right: 0px;
-	background-color: lightblue;
+	padding-left: 300px;
 	padding-top: 40px;
 	padding-bottom: 30px;
-	float: left;
+	align-items: center;
+	align-content: center;
 	width: 60%;
     
 }
@@ -56,7 +61,7 @@ a{
 	color: black;
 }
 .first-post{
-	background-color: white;
+	background-image: linear-gradient(68deg, red, rgb(255, 255, 255), blue);
 	text-decoration: none;
 }
 b{
@@ -92,6 +97,7 @@ b{
 	border-color: black;
 	height: 200px;
 	width: 200px;
+	align-content: center;
 }
 
 
