@@ -1,0 +1,14 @@
+<section class="gallery">
+        <b class="bun">Gallery</b><br><br>
+        <marquee scrollamount=15 behavior=alternate onmouseover="this.stop();" onmouseout="this.start();">
+        <div class="gall">
+            <img src="indian-healthy-cuisine-palak-paneer_55610-12.jpg" height="800px" width="800px">
+            <img src="healthy-vegetables-wooden-table_1150-38014.jpg" height="800px" width="800px">
+            <img src="https://image.freepik.com/free-photo/indian-healthy-cuisine-palak-paneer_55610-12.jpg" height="800px" width="800px">
+            <img src="https://image.freepik.com/free-photo/old-woman-making-cooking-baking-fresh-food-rural-village-vintage-kitchen_136354-10380.jpg" height="800px" width="800px">
+            <img src="https://image.freepik.com/free-photo/healthy-vegetables-wooden-table_1150-38014.jpg" height="800px" width="800px">
+            <img src="" height="800px" width="800px">
+            <img src="" height="800px" width="800px">
+        </div>
+    </marquee>
+    </section>

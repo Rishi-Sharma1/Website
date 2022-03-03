@@ -1,10 +1,13 @@
 /*CSS for signup page*/
 
 body {
+    padding:20px;
+    margin:20px;
     background-color: black;
 }
 
 h1{
+    font-size:70px;
     color: white;
 }
 
@@ -22,6 +25,12 @@ h1{
     padding-bottom: 5px;
     width: 600px;
 }
+.name:hover{
+    color:black;
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
 
 .email {
     color: white; 
@@ -35,6 +44,12 @@ h1{
     padding-top: 5px;
     padding-bottom: 5px;
     width: 600px;
+}
+.email:hover{
+    color:black;
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
 }
 
 .user {
@@ -50,10 +65,15 @@ h1{
     padding-bottom: 5px;
     width: 600px;
 }
+.user:hover{
+    color:black;
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
 
 .password {
     color: white; 
-    color: white;
     font-size: 30px;
     border-style: none;
     background-color: black;
@@ -65,24 +85,15 @@ h1{
     padding-bottom: 5px;
     width: 600px;
 }
+.password:hover{
+    color:black;
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
 
 .btn1 {
 
-    display: inline-block;
-    margin: 40px 0;
-    width: 240px;
-    height: 80px;
-    border: none;
-    background-color: #00a8ff;
-    color: #fff;
-    font-size: 18px;
-    
-    outline: none;
-    cursor: pointer;
-    transition: .3s linear;
-}
-
-.bt2 {
     display: inline-block;
     margin: 40px 0;
     width: 240px;
@@ -102,10 +113,6 @@ h1{
     box-shadow: -20px 0 20px rgb(255, 147, 5);
 }
 
-.btn2:hover {
-    transform: rotateY(15deg);
-    box-shadow: -20px 0 20px rgb(255, 147, 5);
-}
 
 p {
     color: blanchedalmond;
